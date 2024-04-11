@@ -1,0 +1,27 @@
+#data_1 div {
+    width: 300px;
+    padding: 15px;
+    background-color: rgb(254, 236, 236);
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+
+#data_1 div img {
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+    transition: all 0.5s;
+    margin: 0 auto;
+    display: block;
+}
+
+#data_1 div h6,
+p {
+    padding: 5px;
+}
+
+#data_1 div h6{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
